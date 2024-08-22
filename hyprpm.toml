@@ -1,0 +1,11 @@
+[repository]
+name = "monocle"
+authors = ["pianocomposer321"]
+
+[monocle]
+description = "A simple monocle layout for hyprland"
+authors = ["pianocomposer321"]
+output = "monocle.so"
+build = [
+  "make all"
+]

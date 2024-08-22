@@ -1,0 +1,38 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-Wall",
+      "-fPIC",
+      "-g",
+      "-DWLR_USE_UNSTABLE",
+      "-I/usr/include/libdrm",
+      "-I/usr/local/include/hyprland/protocols",
+      "-I/usr/local/include/hyprland/wlroots-hyprland",
+      "-I/usr/local/include",
+      "-I/usr/include/pango-1.0",
+      "-I/usr/include/pixman-1",
+      "-I/usr/include/cairo",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib64/glib-2.0/include",
+      "-I/usr/include/harfbuzz",
+      "-I/usr/include/freetype2",
+      "-I/usr/include/libxml2",
+      "-I/usr/include/libpng16",
+      "-DWITH_GZFILEOP",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-I/usr/include/sysprof-6",
+      "-pthread",
+      "-I/usr/include/fribidi",
+      "-std=c++23",
+      "-o",
+      "monocle.so",
+      "./main.cpp"
+    ],
+    "directory": "/home/composer3/Documents/programming/cpp/HyprlandTestPlugin",
+    "file": "/home/composer3/Documents/programming/cpp/HyprlandTestPlugin/main.cpp",
+    "output": "/home/composer3/Documents/programming/cpp/HyprlandTestPlugin/monocle.so"
+  }
+]
