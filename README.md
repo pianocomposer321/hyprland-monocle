@@ -31,3 +31,13 @@ expected before adding this line to your config.
 As you can see, this repo does have a hyprpm.toml file, but I couldn't get
 hyprpm to work so I haven't tested that. If it works great, if not I won't
 likely be fixing it myself but a PR would be welcome :).
+
+# Usage
+
+The plugin creates three dispatchers for hyprctl: `monocle:on`, `monocle:off`,
+and `monocle:toggle`. You can just bind any of these in your config. I use the
+following binding:
+
+```
+bind = $mainMod, M, monocle:toggle
+```
