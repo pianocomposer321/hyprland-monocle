@@ -19,7 +19,7 @@ load it using the hyprload plugin manager or manually by adding this line to
 your config:
 
 ```
-exec-once = hyprctl plugin load ~/.local/share/hyprload/plugins/bin/monocle.so
+plugin = $HOME/.local/share/hyprload/plugins/bin/monocle.so
 ```
 
 Be warned that loading plugins can cause hyprland to crash, so you should test
