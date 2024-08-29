@@ -83,6 +83,8 @@ void moveIntoGroup(std::string args) {
 }
 
 void monocleOn(std::string arg) {
+    const auto currentWindow = g_pCompositor->m_pLastWindow;
+
     int currentWorkspace = g_pCompositor->m_pLastMonitor->activeWorkspaceID();
     workspaces.push_back(currentWorkspace);
 
@@ -97,6 +99,8 @@ void monocleOn(std::string arg) {
         g_pCompositor->focusWindow(window2);
         Monocle::moveWindowIntoGroup(window2, window1);
     }
+
+    g_pCompositor->focusWindow(currentWindow);
 }
 
 void monocleOff(std::string arg) {
